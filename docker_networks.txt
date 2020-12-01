@@ -1,0 +1,26 @@
+ifconfig
+
+docker network ls
+
+docker newtwork inspect bridge
+
+
+docker run -it ubuntu:latest /bin/bash
+
+
+docker newtwork inspect bridge
+
+
+docker newtwork create --driver bridge mynetwork
+
+docker run -it --network=mynetwork ubuntu:latest /bin/bash
+
+
+docker newtwork inspect mynetwork 
+
+
+docker run -it --network=mynetwork ubuntu:latest /bin/bash
+
+
+docker newtwork inspect mynetwork 
+

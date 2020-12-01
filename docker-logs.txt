@@ -1,0 +1,11 @@
+docker run -d httpd
+
+docker ps
+
+
+docker logs 375fb8397b37
+
+ docker logs 375fb8397b37 -f
+
+
+ 
